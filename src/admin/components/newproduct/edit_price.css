@@ -1,0 +1,20 @@
+.ep_container{
+    width: 95%;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ep_header{
+    margin: 2% 0%;
+}
+.ep_form{
+    background-color: white;
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    padding: 2% 5%;
+}
+.ep_form_gap{
+    margin: 10% 0%;
+}

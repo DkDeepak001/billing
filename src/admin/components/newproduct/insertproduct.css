@@ -1,0 +1,60 @@
+.ip_container {
+  width: 95%;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ip_header_name {
+  margin: 2% 0%;
+}
+.ip_form {
+  background-color: white;
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  border-radius: 10px;
+  padding: 1% 5%;
+}
+.ip_form_gap {
+  margin: 10% 0%;
+}
+.ip_units {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.select {
+  appearance: none;
+  min-width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0.1px solid rgb(160, 160, 160);
+  padding: 0% 10px;
+}
+.ip_button {
+  align-items: center;
+  width: 100%;
+}
+.ip_button:hover {
+  background: #fff;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1228px) {
+}
+@media only screen and (max-width: 900px) {
+}

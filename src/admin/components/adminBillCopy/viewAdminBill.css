@@ -1,0 +1,81 @@
+.abc_container {
+  width: 95%;
+  margin: 2% auto;
+}
+.abc_menu {
+  overflow: auto;
+  width: 90%;
+  margin: 2% auto;
+}
+
+.ab_tanc {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  border-radius: 20px;
+  margin: 2% 0%;
+  padding: 2%;
+}
+.ab_desc {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  border-radius: 20px;
+  margin: 2% 0%;
+  padding: 2%;
+}
+.greenBack {
+  background-color: #57cf5b;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  padding: 3% 8%;
+}
+.redBack {
+  background-color: #f34235;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  padding: 3% 8%;
+}
+@media only screen and (min-width: 900px) and (max-width: 1228px) {
+  .abc_container {
+    width: 95%;
+    margin: 2% auto;
+  }
+  .abc_menu {
+    overflow: auto;
+    width: 90%;
+    margin: 2% auto;
+  }
+
+  .ab_tanc {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 20px;
+    margin: 2% 0%;
+    padding: 2%;
+  }
+  .ab_desc {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 20px;
+    margin: 2% 0%;
+    padding: 2%;
+  }
+  .greenBack {
+    background-color: #57cf5b;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 3% 8%;
+  }
+  .redBack {
+    background-color: #f34235;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 3% 8%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+}

@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.company_sales_container {
+  width: 95%;
+  margin: 1% auto;
+}
+.company_sales_top {
+  margin: 2% 0%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.company_sales_bottom {
+  margin: 2% auto;
+  overflow-x: auto;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1228px) {
+  .company_sales_container {
+    width: 95%;
+    margin: 1% auto;
+  }
+  .company_sales_top {
+    margin: 2% 0%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 13px;
+  }
+  .company_sales_bottom {
+    margin: 2% auto;
+    overflow-x: auto;
+  }
+}

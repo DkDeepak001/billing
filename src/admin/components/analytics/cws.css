@@ -1,0 +1,8 @@
+.cws_container{
+    width: 95%;
+    margin:1% auto;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

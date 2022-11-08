@@ -1,0 +1,108 @@
+.edit_bill_container {
+  width: 90%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+}
+.edit_bill_head {
+  width: 100%;
+  margin: 3% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.edit_bill_head_left {
+  width: 39%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  border-radius: 10px;
+  padding: 2% 1%;
+}
+.bill_style_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edit_bill_head_right {
+  width: 59%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  border-radius: 10px;
+}
+.edit_bill_menu {
+  overflow: auto;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1228px) {
+  .edit_bill_container {
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .edit_bill_head {
+    width: 100%;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .edit_bill_head_left {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    padding: 2% 1%;
+    margin: 2% 0%;
+  }
+  .bill_style_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .edit_bill_head_right {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .edit_bill_container {
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .edit_bill_head {
+    width: 100%;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .edit_bill_head_left {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    padding: 2% 1%;
+    margin: 2% 0%;
+  }
+  .bill_style_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .edit_bill_head_right {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    height: 50vh;
+  }
+}

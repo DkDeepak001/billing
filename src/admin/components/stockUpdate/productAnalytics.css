@@ -1,0 +1,111 @@
+.pa_analytics {
+  width: 95%;
+  min-height: 95vh;
+  margin: 1% auto;
+}
+.pa_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.pa_header_heading {
+  margin: 1% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pa_header_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1% 0%;
+  margin-bottom: 2%;
+}
+.box_menu {
+  width: 20%;
+  min-height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  text-align: center;
+  line-height: 1.4;
+  padding: 1.5% 1%;
+  border-radius: 25px;
+}
+.pa_menu_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0%;
+}
+.pa_meanu_bottom {
+  height: 60vh;
+}
+@media only screen and (min-width: 900px) and (max-width: 1228px) {
+  .pa_analytics {
+    width: 95%;
+    min-height: 95vh;
+    margin: 1% auto;
+  }
+  .pa_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .pa_header_heading {
+    margin: 1% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .pa_header_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1% 0%;
+    margin-bottom: 2%;
+  }
+  .box_menu {
+    width: 20%;
+    min-height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    text-align: center;
+    line-height: 1.4;
+    padding: 1.5% 1%;
+    border-radius: 25px;
+  }
+  .pa_menu_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 0%;
+  }
+  .pa_meanu_bottom {
+    height: 60vh;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .pa_header_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1% 0%;
+    margin-bottom: 2%;
+  }
+  .box_menu {
+    margin: 1% 0%;
+  }
+  .box_menu {
+    width: 50%;
+    min-height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    text-align: center;
+    line-height: 1.4;
+    padding: 1.5% 1%;
+    border-radius: 25px;
+  }
+}

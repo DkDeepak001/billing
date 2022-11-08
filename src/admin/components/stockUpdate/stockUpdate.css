@@ -1,0 +1,11 @@
+.bp_container {
+  width: 95%;
+  margin: auto;
+}
+.bp_header {
+  margin: 2% 0%;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}

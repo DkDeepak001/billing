@@ -1,0 +1,473 @@
+.analytics_container {
+  width: 95%;
+  margin: auto;
+}
+.analytics_header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.analytics_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90vh;
+}
+
+.analytics_top {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  border-radius: 10px;
+  padding-bottom: 2%;
+}
+.analytics_bottom {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+.analytics_bar {
+  width: 64%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  border-radius: 10px;
+}
+.analytics_sales {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+  border-radius: 10px;
+}
+.analytics_revenue {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0.5% auto;
+}
+.analytics_revenue_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5% 0%;
+  margin-bottom: 1%;
+}
+.analytics_revenue_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.analytics_box {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1% 0%;
+  border-radius: 9px;
+}
+
+.revenue_h2 {
+  padding: 2% 0%;
+}
+.analytics_bar_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1.5% auto;
+}
+.analytics_sales_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 1.5% 0%;
+}
+.menu1 {
+  background-color: #ffbb72;
+  border: 4px solid #ffbb72;
+  transition: all 0.4s ease;
+}
+.menu1:hover {
+  background-color: #fff;
+  color: #f19f46;
+  transition: all 0.4s ease;
+}
+.menu2 {
+  background-color: #ff8aa6;
+  border: 4px solid #ff8aa6;
+  transition: all 0.4s ease;
+}
+.menu2:hover {
+  background-color: #fff;
+  color: #ff8aa6;
+  transition: all 0.4s ease;
+}
+
+.menu3 {
+  background-color: #c080ff;
+  border: 4px solid #c080ff;
+  transition: all 0.4s ease;
+}
+.menu3:hover {
+  background-color: #fff;
+  color: #6f1ec0;
+  transition: all 0.4s ease;
+}
+.bar_menu_bottom {
+  height: 86%;
+}
+.analytics_sales_top {
+  margin: 2% auto;
+}
+.analytics_table {
+  width: 100%;
+  margin: 3% auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+.analytics_tablehead {
+  background-color: #d0def2;
+  padding: 4% 5%;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.errorContainer {
+  display: flex;
+  width: 90%;
+  margin: 2% auto;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1228px) {
+  .analytics_container {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+  }
+  .analytics_header {
+    width: 95%;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .analytics_menu {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+  }
+
+  .analytics_top {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    font-size: 13px;
+  }
+  .analytics_bottom {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+  }
+  .analytics_bar {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    margin: 2% 0%;
+  }
+  .analytics_sales {
+    margin: 2% 0%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+  }
+  .analytics_revenue {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 95%;
+    margin: 0.5% auto;
+  }
+  .analytics_revenue_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0%;
+  }
+  .analytics_revenue_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .analytics_box {
+    width: 30%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0%;
+    border-radius: 9px;
+  }
+
+  .revenue_h2 {
+    padding: 2% 0%;
+  }
+  .analytics_bar_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1.5% auto;
+  }
+  .analytics_sales_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1.5% 0%;
+  }
+  .menu1 {
+    background-color: #ffbb72;
+    border: 4px solid #ffbb72;
+    transition: all 0.4s ease;
+  }
+  .menu1:hover {
+    background-color: #fff;
+    color: #f19f46;
+    transition: all 0.4s ease;
+  }
+  .menu2 {
+    background-color: #ff8aa6;
+    border: 4px solid #ff8aa6;
+    transition: all 0.4s ease;
+  }
+  .menu2:hover {
+    background-color: #fff;
+    color: #ff8aa6;
+    transition: all 0.4s ease;
+  }
+
+  .menu3 {
+    background-color: #c080ff;
+    border: 4px solid #c080ff;
+    transition: all 0.4s ease;
+  }
+  .menu3:hover {
+    background-color: #fff;
+    color: #6f1ec0;
+    transition: all 0.4s ease;
+  }
+  .bar_menu_bottom {
+    height: 86%;
+  }
+  .analytics_sales_top {
+    margin: 2% auto;
+  }
+  .analytics_table {
+    width: 100%;
+    margin: 3% auto;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  .analytics_tablehead {
+    background-color: #d0def2;
+    padding: 4% 5%;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+  .errorContainer {
+    display: flex;
+    width: 90%;
+    margin: 2% auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .analytics_container {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+  }
+  .analytics_header {
+    width: 95%;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .analytics_menu {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .analytics_top {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    margin: 2% 0%;
+  }
+  .analytics_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+  }
+  .analytics_bar {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    margin: 2% 0%;
+  }
+  .analytics_sales {
+    margin: 2% 0%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+  }
+  .analytics_revenue {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 95%;
+    margin: 0.5% auto;
+  }
+  .analytics_revenue_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 0%;
+  }
+  .analytics_revenue_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .analytics_box {
+    margin: 1% 0%;
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0%;
+    border-radius: 9px;
+    font-size: 12px;
+  }
+
+  .revenue_h2 {
+    padding: 2% 0%;
+  }
+  .analytics_bar_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1.5% auto;
+  }
+  .analytics_sales_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1.5% 0%;
+  }
+  .menu1 {
+    background-color: #ffbb72;
+    border: 4px solid #ffbb72;
+    transition: all 0.4s ease;
+  }
+  .menu1:hover {
+    background-color: #fff;
+    color: #f19f46;
+    transition: all 0.4s ease;
+  }
+  .menu2 {
+    background-color: #ff8aa6;
+    border: 4px solid #ff8aa6;
+    transition: all 0.4s ease;
+  }
+  .menu2:hover {
+    background-color: #fff;
+    color: #ff8aa6;
+    transition: all 0.4s ease;
+  }
+
+  .menu3 {
+    background-color: #c080ff;
+    border: 4px solid #c080ff;
+    transition: all 0.4s ease;
+  }
+  .menu3:hover {
+    background-color: #fff;
+    color: #6f1ec0;
+    transition: all 0.4s ease;
+  }
+  .bar_menu_bottom {
+    height: 86%;
+  }
+  .analytics_sales_top {
+    margin: 2% auto;
+  }
+  .analytics_table {
+    width: 100%;
+    margin: 3% auto;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  .analytics_tablehead {
+    background-color: #d0def2;
+    padding: 4% 5%;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+  .errorContainer {
+    display: flex;
+    width: 90%;
+    margin: 2% auto;
+  }
+}

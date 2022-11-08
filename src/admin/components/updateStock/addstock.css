@@ -1,0 +1,67 @@
+.popUp-add-stock {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 1s ease-in;
+}
+.Mail {
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 1s ease-in;
+}
+.show-updatepayment {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 1s ease-in;
+}
+.popup-bg {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 2px 5px 20px rgb(0 0 0 / 10%);
+  padding: 2%;
+  transition: all 1s ease-in;
+}
+.Mail-form {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 2px 5px 20px rgb(0 0 0 / 10%);
+  padding: 2%;
+
+  transition: all 1s ease-in;
+}
+.show-updatepayment-bg {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 2px 5px 20px rgb(0 0 0 / 10%);
+  padding: 2%;
+
+  transition: all 1s ease-in;
+}
+
+.popUp-add-stock-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease-in;
+}
+.Mail-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease-in;
+}
+.updatePay-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease-in;
+}

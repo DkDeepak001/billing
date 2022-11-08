@@ -1,0 +1,26 @@
+.Rev_container{
+    width: 95%;
+    margin:1% auto;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Rev_bottom{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 28px rgba(78, 78, 78, 0.2);
+    border-radius: 10px;
+    overflow-x: auto;
+}
+.Rev_bottom_container{
+    width: 95%;
+    margin: 1% auto;
+}
+.Rev_bottom_top{
+    margin: 1% auto;
+}
