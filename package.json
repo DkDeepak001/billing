@@ -1,7 +1,7 @@
 {
   "name": "billing",
   "version": "0.1.0",
-  "homepage": "https://DkDeepak001.github.io/billing",
+  "homepage": "https://DkDeepak001.github.io/billing/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.0",
