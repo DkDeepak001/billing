@@ -33,7 +33,7 @@ export class App extends Component {
               <Route exact path="/">
                 <Home />
               </Route>
-              <Route component={pageNotFound} />
+              {/* <Route component={pageNotFound} /> */}
 
             </Switch>
           </div>
