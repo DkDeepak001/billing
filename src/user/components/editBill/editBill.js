@@ -25,7 +25,6 @@ import InputAdornment from '@mui/material/InputAdornment';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 import { saveAs } from 'file-saver';
-import Logo from '../../../resource/gananathanan.png';
 
 
 
@@ -877,10 +876,6 @@ export class analytics extends Component {
                     {bill === null ? <></> :
                         <div className='pageToPrint'>
                             <div className="printHeader" style={{ borderTop: "1px soild black", borderBottom: '1px solid black', padding: "1% 0%" }}>
-                            <img src={Logo} style={{ height: 40, width: 35, padding: "0% 2%" }}></img>
-                                <h4>GN India Mart</h4>
-                                <h6>CIN : U51909TN2021PTC146627</h6>
-                                <p>No:4 Vivekanandar street, 2nd floor, Irumbuliyur,Chennai-600045,Tamilnadu</p>
                             </div>
                             <div className="printcustomerName" style={{ borderBottom: '1px solid black', padding: ".5% 0%" }}>
                                 <p>Customer Name: {this.state.company_name}</p>
