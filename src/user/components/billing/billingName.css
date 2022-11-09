@@ -1,0 +1,25 @@
+.billingName_container {
+  width: 90%;
+  margin: auto;
+}
+.billingName_header {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.billName_row_name {
+  padding-right: 1%;
+}
+.billName_row {
+  display: flex;
+  align-items: flex-start;
+  flex: 2;
+}
+.billingName_newuserForm {
+  justify-content: flex-end;
+  flex: 1;
+}
+@media only screen and (max-width: 800px) {
+}

@@ -1,0 +1,50 @@
+.admin_subheader{
+    width: 90%;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.ebn_details{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 1%;
+    line-height: 1.7;
+}
+.ebns_container{
+    width: 95% ;
+    margin: 1% auto;
+}
+.b_footer_editBill{
+    margin: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.b_footer_total{
+    margin: 1% 0%;
+}
+.b_footer_button{
+    display: flex;
+    flex-direction: row;
+}
+.b_footer_button button{
+    margin-right: 10px;
+}
+.b_footer_button button:last-child{
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    .admin_subheader{
+        width: 90%;
+        margin: 3% auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b_footer_edit{
+        margin: 2% 0%;
+    }
+}
