@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Logo from '../resource/gananathanan.png'
 import {
     IoIosSettings as Setting,
     IoIosNotifications as Notification,
@@ -105,9 +104,8 @@ export default class admin_home extends Component {
                             {this.state.hamburger ? <div className="admin_sidewrap">
                                 <div className="admin_sideTop">
                                     <div className="nav_logo">
-                                        <img className="nav_logo_img" src={Logo} alt=''></img>
                                         <div className='mav_logo_name'>
-                                            <h4><span>GN</span> India Mart</h4>
+                                            <h4>Billing</h4>
                                         </div>
                                     </div>
                                     <div className="Hamburger">

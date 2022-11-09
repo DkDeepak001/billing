@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Avatar from '@mui/material/Avatar';
-import Logo from '../resource/gananathanan.png';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Swal from 'sweetalert2';
@@ -72,8 +71,6 @@ export class adminLogin extends Component {
                     {!localStorage.getItem('user') ?
                         <form >
                             <div className="logo_login">
-                                <Avatar alt="Cindy Baker" align="center" src={Logo} sx={{ width: 56, height: 70 }} />
-                                <h2>GN India Mart</h2>
                             </div>
                             <h3 class="login_title"> Log in</h3>
                             <p class="or"></p>
