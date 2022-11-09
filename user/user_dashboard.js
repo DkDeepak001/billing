@@ -42,7 +42,7 @@ import barGraph from './components/analytics/barGraph';
 import companywise, { product } from './components/analytics/companywise';
 import billCopyofCompany from './components/analytics/billCopyofCompany';
 import viewBill from './components/updateproduct/viewBill';
-import pageNotFound from '../404';
+import pageNotFound from '../src/404';
 import viewCustomer from './components/resgister/viewCustomer';
 import editCustomer from './components/resgister/editCustomer';
 

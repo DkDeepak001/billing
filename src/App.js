@@ -11,8 +11,6 @@ import {
 import Admin_dashboard from './admin/admin_nav_side';
 import adminLogin from './admin/adminLogin';
 import pageNotFound from './404';
-import userLogin from './user/userLogin'
-import User_dashboard from './user/user_dashboard'
 
 
 export class App extends Component {
@@ -30,11 +28,6 @@ export class App extends Component {
               </Route>
               <Route path="/Admin">
                 <Admin_dashboard />
-              </Route>
-              <Route path="/user">
-                <User_dashboard />
-              </Route>
-              <Route exact path="/user/login" component={userLogin}>
               </Route>
               <Route exact path="/">
                 <Home />
